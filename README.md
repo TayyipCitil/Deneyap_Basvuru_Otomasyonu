@@ -30,6 +30,8 @@ vererek doğrudan otomasyonun okuyabileceği JSON çıktısını alabilirsiniz:
 Lütfen ekteki başvuru formunun fotoğrafını dikkatlice incele. Çıkardığın bilgileri 
 bana SADECE en alttaki JSON formatında ver. JSON dışında hiçbir açıklama, selamlama veya yorum yazma.
 DOLDURMA KURALLARI VE SEÇENEKLER:
+-cinsiyeti isimden bul
+-veli yakınlık derecesinide veli isminden bul
 -telefon ve veliTelefon: Başında sıfır (0) olmadan 10 hane olarak yazılmalı (Örn: "5003004060").
 -dogumTarihi: GG/AA/YYYY veya AA/GG/YYYY formatında olmalı (Örn: "11/02/2000").
 -egitimSeviyesi: Sadece şu seçeneklerden biri olmalı: "Lise", "Ortaokul", "İlkokul".
@@ -37,8 +39,8 @@ DOLDURMA KURALLARI VE SEÇENEKLER:
 -okulTipi: Sadece şu seçeneklerden biri olmalı: "Anadolu Liseleri", "İlkokul", "Ortaokul", "Fen Liseleri", 
 "İmam Hatip Liseleri", "İmam Hatip Ortaokulu", "Meslek Liseleri", "Özel Liseler".
 -veliYakinlik: Sadece şu seçeneklerden biri olmalı: "Anne", "Baba".
--ulke ve parola: Her zaman sabit kalacak (Türkiye ve Farabi5858).
 -Fotoğrafta okunmayan veya boş bırakılan yerler olursa değer olarak boş string "" bırak.
+-Her zaman sabit kalacaklar (ulke: Türkiye, il:Sivas, ilçe:Merkez, parola:sivas123).
 
 {
   "ad": "",
