@@ -3,15 +3,15 @@
 Bu proje, Deneyap Teknoloji Atölyeleri ve T3 Vakfı başvuru süreçlerini otonom hale getirmek için geliştirilmiş,
 Selenium WebDriver tabanlı bir masaüstü (RPA) uygulamasıdır. 
 
-Karmaşık web formlarını, birbiriyle bağlantılı dinamik açılır menüleri (Select2) ve onay kutularını insan müdahalesi olmadan doldurur.
+Karmaşık web formlarını, birbiriyle bağlantılı dinamik açılır menüleri ve onay kutularını insan müdahalesi olmadan doldurur.
 
 🚀 Özellikler
 
 -Otonom Form Doldurma: JSON dosyasından okuduğu verileri saniyeler içinde ilgili alanlara işler.
--Akıllı Select2 Yönetimi: İnternet hızına ve sunucu yanıtlarına göre dinamik bekleme süreleri (Implicit/Explicit Waits) uygular.
+-Akıllı Yönetim: İnternet hızına ve sunucu yanıtlarına göre dinamik bekleme süreleri (Implicit/Explicit Waits) uygular.
 Ekranda görünmeyen veya tam eşleşmeyen verileri DOM üzerinden XPath ile tespit ederek esnek seçim yapar.
 -Yapay Zeka (Prompt) Entegrasyonu: Taranmış fiziki başvuru belgelerinin LLM'ler (Gemini, ChatGPT) aracılığıyla doğrudan
-sisteme uyumlu JSON formatına çevrilmesini sağlar.
+sisteme uyumlu JSON formatına çevrilmesini sağlanabilir.
 -Otomatik Loglama (CSV): Sisteme girilen her adayın temel bilgilerini arka planda Excel uyumlu `.csv` formatında arşivler.
 -Taşınabilir Mimar (Fat JAR & EXE): Java veya IDE kurulumu gerektirmeyen, Launch4j ile paketlenmiş bağımsız `.exe` formatında çalışır.
 
@@ -21,11 +21,11 @@ Sistemi kaynak kodlarıyla derlemek yerine doğrudan kullanmak isterseniz:
 1.  Yan taraftaki **Releases** bölümünden en güncel `.zip` dosyasını indirin.
 2.  Klasörü klasöre çıkartın.
 3.  `basvuru.json` dosyasını kendi bilgilerinize göre doldurun (veya aşağıdaki Yapay Zeka komutunu kullanın).
-4.  `DeneyapRobotu.exe` uygulamasına çift tıklayın ve arkanıza yaslanın!
+4.  `Deneyap_Basvuru_Otomasyonu.exe` uygulamasına çift tıklayın ve arkanıza yaslanın!
 
 🧠 Yapay Zeka ile Veri Çıkarma Komutu (Prompt)
 Fiziki bir başvuru kağıdının fotoğrafını çekip, ChatGPT veya Gemini'ye aşağıdaki komutla birlikte 
-vererek doğrudan otomasyonun okuyabileceği JSON çıktısını alabilirsiniz:
+vererek doğrudan otomasyonun okuyabileceği JSON çıktısını alabilirsiniz(Prompt'da kendinize göre güncellemeniz gereken yerler olabilir):
 
 Lütfen ekteki başvuru formunun fotoğrafını dikkatlice incele. Çıkardığın bilgileri 
 bana SADECE en alttaki JSON formatında ver. JSON dışında hiçbir açıklama, selamlama veya yorum yazma.
