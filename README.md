@@ -64,7 +64,7 @@ DOLDURMA KURALLARI VE SEÇENEKLER:
   "il": "",
   "ilce": "",
   "adres": "",
-  "parola": "Farabi5858"
+  "parola": ""
 }
 
 
