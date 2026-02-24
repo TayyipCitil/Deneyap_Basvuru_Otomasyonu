@@ -10,8 +10,7 @@
   * Otomatik Loglama (CSV): Sisteme girilen her adayın temel bilgilerini arka planda Excel uyumlu `.csv` formatında arşivler.
   * Taşınabilir Mimar (Fat JAR & EXE): Java veya IDE kurulumu gerektirmeyen, Launch4j ile paketlenmiş bağımsız `.exe` formatında çalışır.
 
-📥 Kurulum ve Kullanım
-Sistemi kaynak kodlarıyla derlemek yerine doğrudan kullanmak isterseniz:
+📥 Kurulum ve Kullanım (Sistemi kaynak kodlarıyla derlemek yerine doğrudan kullanmak isterseniz)
 1.  Linki verilen siteden ve `jdk-25_windows-x64_bin.exe` dosyasını indirin ve kurun. https://www.oracle.com/java/technologies/downloads/#jdk25-windows
 2.  GitHub sayfasındaki **Releases** bölümünden `Deneyap_Basvuru_Otomasyonu_V2.zip` dosyasını indirin.
 3.  Sağ tık yapıp ZIP dosyasını ayıklayın.
