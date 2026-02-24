@@ -1,27 +1,25 @@
 🤖 Deneyap / T3 Vakfı Başvuru Otomasyonu
 
 Bu proje, Deneyap Teknoloji Atölyeleri ve T3 Vakfı başvuru süreçlerini otonom hale getirmek için geliştirilmiş,
-Selenium WebDriver tabanlı bir masaüstü (RPA) uygulamasıdır. 
-
+Selenium WebDriver tabanlı bir masaüstü (RPA) uygulamasıdır.
 Karmaşık web formlarını, birbiriyle bağlantılı dinamik açılır menüleri ve onay kutularını insan müdahalesi olmadan doldurur.
 
 🚀 Özellikler
-
--Otonom Form Doldurma: JSON dosyasından okuduğu verileri saniyeler içinde ilgili alanlara işler.
--Akıllı Yönetim: İnternet hızına ve sunucu yanıtlarına göre dinamik bekleme süreleri (Implicit/Explicit Waits) uygular.
+>Otonom Form Doldurma: JSON dosyasından okuduğu verileri saniyeler içinde ilgili alanlara işler.
+>Akıllı Yönetim: İnternet hızına ve sunucu yanıtlarına göre dinamik bekleme süreleri (Implicit/Explicit Waits) uygular.
 Ekranda görünmeyen veya tam eşleşmeyen verileri DOM üzerinden XPath ile tespit ederek esnek seçim yapar.
--Yapay Zeka (Prompt) Entegrasyonu: Taranmış fiziki başvuru belgelerinin LLM'ler (Gemini, ChatGPT) aracılığıyla doğrudan
+>Yapay Zeka (Prompt) Entegrasyonu: Taranmış fiziki başvuru belgelerinin LLM'ler (Gemini, ChatGPT) aracılığıyla doğrudan
 sisteme uyumlu JSON formatına çevrilmesini sağlanabilir.
--Otomatik Loglama (CSV): Sisteme girilen her adayın temel bilgilerini arka planda Excel uyumlu `.csv` formatında arşivler.
--Taşınabilir Mimar (Fat JAR & EXE): Java veya IDE kurulumu gerektirmeyen, Launch4j ile paketlenmiş bağımsız `.exe` formatında çalışır.
+>Otomatik Loglama (CSV): Sisteme girilen her adayın temel bilgilerini arka planda Excel uyumlu `.csv` formatında arşivler.
+>Taşınabilir Mimar (Fat JAR & EXE): Java veya IDE kurulumu gerektirmeyen, Launch4j ile paketlenmiş bağımsız `.exe` formatında çalışır.
 
 📥 Kurulum ve Kullanım
 Sistemi kaynak kodlarıyla derlemek yerine doğrudan kullanmak isterseniz:
-
-1.  Yan taraftaki **Releases** bölümünden en güncel `.zip` dosyasını indirin.
-2.  Klasörü klasöre çıkartın.
-3.  `basvuru.json` dosyasını kendi bilgilerinize göre doldurun (veya aşağıdaki Yapay Zeka komutunu kullanın).
-4.  `Deneyap_Basvuru_Otomasyonu.exe` uygulamasına çift tıklayın ve arkanıza yaslanın!
+1.  Linki verilen siteden ve `jdk-25_windows-x64_bin.exe` dosyasını indirin ve kurun. https://www.oracle.com/java/technologies/downloads/#jdk25-windows
+2.  GitHub sayfasındaki **Releases** bölümünden `Deneyap_Basvuru_Otomasyonu_V2.zip` dosyasını indirin.
+3.  Sağ tık yapıp ZIP dosyasını ayıklayın.
+4.  `basvuru.json` dosyasını kendi bilgilerinize göre doldurun ve kaydedin. (aşağıdaki Yapay Zeka promt'unu kullanarak hızlı doldurma yapabilirsiniz).
+5.  `Deneyap_Basvuru_Otomasyonu.exe` uygulamasına çift tıklayın ve arkanıza yaslanın!
 
 🧠 Yapay Zeka ile Veri Çıkarma Komutu (Prompt)
 Fiziki bir başvuru kağıdının fotoğrafını çekip, ChatGPT veya Gemini'ye aşağıdaki komutla birlikte 
